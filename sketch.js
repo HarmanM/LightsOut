@@ -24,7 +24,7 @@ function make2dArray(rows, cols) {
 }
 
 function generateRandomLitCells() {
-  let num = int(random(2, 15));
+  let num = int(random(15, 35));
   console.log(num)
   while (num > 0) {
     index1 = int(random(0, 5))
